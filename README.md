@@ -5,7 +5,7 @@ json-server is a node module, and hence can be installed globally by typing the 
 
 create a folder named json-server and add the json files with .json extension.
 
-Type the following at the command prompt to start the server
+Type the following at the command prompt to start the server(-d is used for delay, here delay is of 2secs)
 # json-server --watch db.json -p 3001 -d 2000
 
 This should start up a server at port number 3001 on your machine. The data from this server can be accessed by typing the following addresses into your browser address bar:
